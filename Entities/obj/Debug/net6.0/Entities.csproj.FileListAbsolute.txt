@@ -1,0 +1,15 @@
+/home/enesonmez/Genel/projects/RentCar/Entities/bin/Debug/net6.0/Entities.deps.json
+/home/enesonmez/Genel/projects/RentCar/Entities/bin/Debug/net6.0/Entities.dll
+/home/enesonmez/Genel/projects/RentCar/Entities/bin/Debug/net6.0/Entities.pdb
+/home/enesonmez/Genel/projects/RentCar/Entities/obj/Debug/net6.0/Entities.csproj.AssemblyReference.cache
+/home/enesonmez/Genel/projects/RentCar/Entities/obj/Debug/net6.0/Entities.GeneratedMSBuildEditorConfig.editorconfig
+/home/enesonmez/Genel/projects/RentCar/Entities/obj/Debug/net6.0/Entities.AssemblyInfoInputs.cache
+/home/enesonmez/Genel/projects/RentCar/Entities/obj/Debug/net6.0/Entities.AssemblyInfo.cs
+/home/enesonmez/Genel/projects/RentCar/Entities/obj/Debug/net6.0/Entities.csproj.CoreCompileInputs.cache
+/home/enesonmez/Genel/projects/RentCar/Entities/obj/Debug/net6.0/Entities.dll
+/home/enesonmez/Genel/projects/RentCar/Entities/obj/Debug/net6.0/refint/Entities.dll
+/home/enesonmez/Genel/projects/RentCar/Entities/obj/Debug/net6.0/Entities.pdb
+/home/enesonmez/Genel/projects/RentCar/Entities/obj/Debug/net6.0/ref/Entities.dll
+/home/enesonmez/Genel/projects/RentCar/Entities/bin/Debug/net6.0/Core.dll
+/home/enesonmez/Genel/projects/RentCar/Entities/bin/Debug/net6.0/Core.pdb
+/home/enesonmez/Genel/projects/RentCar/Entities/obj/Debug/net6.0/Entities.csproj.CopyComplete

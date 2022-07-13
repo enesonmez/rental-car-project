@@ -1,0 +1,12 @@
+/home/enesonmez/Genel/projects/RentCar/Core/obj/Debug/net6.0/Core.csproj.AssemblyReference.cache
+/home/enesonmez/Genel/projects/RentCar/Core/obj/Debug/net6.0/Core.GeneratedMSBuildEditorConfig.editorconfig
+/home/enesonmez/Genel/projects/RentCar/Core/obj/Debug/net6.0/Core.AssemblyInfoInputs.cache
+/home/enesonmez/Genel/projects/RentCar/Core/obj/Debug/net6.0/Core.AssemblyInfo.cs
+/home/enesonmez/Genel/projects/RentCar/Core/obj/Debug/net6.0/Core.csproj.CoreCompileInputs.cache
+/home/enesonmez/Genel/projects/RentCar/Core/bin/Debug/net6.0/Core.deps.json
+/home/enesonmez/Genel/projects/RentCar/Core/bin/Debug/net6.0/Core.dll
+/home/enesonmez/Genel/projects/RentCar/Core/bin/Debug/net6.0/Core.pdb
+/home/enesonmez/Genel/projects/RentCar/Core/obj/Debug/net6.0/Core.dll
+/home/enesonmez/Genel/projects/RentCar/Core/obj/Debug/net6.0/refint/Core.dll
+/home/enesonmez/Genel/projects/RentCar/Core/obj/Debug/net6.0/Core.pdb
+/home/enesonmez/Genel/projects/RentCar/Core/obj/Debug/net6.0/ref/Core.dll
