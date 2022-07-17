@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "++/Qt11HBmQX7uz+b0/aYWOAzKK6GCMf0ULrOcdGzDMVooUsdeXG94JN02z+tCYK8zuTgS3PIOFUROjmQUbIiA==",
+  "dgSpecHash": "0KmHR+vRG2XUhzG/LxCkhwlOLDuhXCDpFKZNrDfF6+QjRFJu9INJjz61Gw9xNtu1wXGDsssN0Ju0vcDYYFbZPA==",
   "success": true,
   "projectFilePath": "/home/enesonmez/Genel/projects/RentCar/DataAccess/DataAccess.csproj",
   "expectedPackageFiles": [
+    "/home/enesonmez/.nuget/packages/fluentvalidation/11.1.0/fluentvalidation.11.1.0.nupkg.sha512",
     "/home/enesonmez/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/home/enesonmez/.nuget/packages/microsoft.data.sqlclient/2.1.4/microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "/home/enesonmez/.nuget/packages/microsoft.data.sqlclient.sni.runtime/2.1.1/microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
