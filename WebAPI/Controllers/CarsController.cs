@@ -20,7 +20,7 @@ namespace WebAPI.Controllers
             _carService = carService;
         }
 
-        [HttpGet]
+        [HttpGet("getall")]
         public IActionResult GetAll()
         {
             var result = _carService.GetAll();
@@ -31,7 +31,7 @@ namespace WebAPI.Controllers
             return BadRequest(result);
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("getbyid")]
         public IActionResult GetById(int id)
         {
             var result = _carService.GetById(id);
@@ -42,8 +42,8 @@ namespace WebAPI.Controllers
             return BadRequest(result);
         }
 
-        [HttpGet("brand")]
-        public IActionResult GetCarsByBrandId([FromQuery] int brandId)
+        [HttpGet("getcarsbybrandid")]
+        public IActionResult GetCarsByBrandId(int brandId)
         {
             var result = _carService.GetCarsByBrandId(brandId);
             if (result.Success)
@@ -53,8 +53,8 @@ namespace WebAPI.Controllers
             return BadRequest(result);
         }
 
-        [HttpGet("color")]
-        public IActionResult GetCarsByColorId([FromQuery] int colorId)
+        [HttpGet("getcarsbycolorid")]
+        public IActionResult GetCarsByColorId(int colorId)
         {
             var result = _carService.GetCarsByColorId(colorId);
             if (result.Success)
@@ -64,7 +64,7 @@ namespace WebAPI.Controllers
             return BadRequest(result);
         }
 
-        [HttpGet("detail")]
+        [HttpGet("getcarsdetail")]
         public IActionResult GetCarsDetail()
         {
             var result = _carService.GetCarsDetail();
@@ -75,7 +75,7 @@ namespace WebAPI.Controllers
             return BadRequest(result);
         }
 
-        [HttpPost]
+        [HttpPost("add")]
         public IActionResult Add(Car car)
         {
             var result = _carService.Add(car);
@@ -86,18 +86,10 @@ namespace WebAPI.Controllers
             return BadRequest(result);
         }
 
-        [HttpPut("{id}")]
-        public IActionResult Update(int id, Car car)
+        [HttpPut("update")]
+        public IActionResult Update(Car car)
         {
-            var result = _carService.Update(new Car
-            {
-                CarId = id,
-                BrandId = car.BrandId,
-                ColorId = car.ColorId,
-                CarName = car.CarName,
-                DailyPrice = car.DailyPrice,
-                ModelYear = car.ModelYear
-            });
+            var result = _carService.Update(car);
             if (result.Success)
             {
                 return Ok(result);
@@ -105,10 +97,10 @@ namespace WebAPI.Controllers
             return BadRequest(result);
         }
 
-        [HttpDelete("{id}")]
-        public IActionResult Delete(int id)
+        [HttpDelete("delete")]
+        public IActionResult Delete(Car car)
         {
-            var result = _carService.Delete(new Car{CarId=id});
+            var result = _carService.Delete(car);
             if (result.Success)
             {
                 return Ok(result);
