@@ -1,5 +1,6 @@
 ﻿using System;
 using Business.Concrete;
+using Core.Entities.Concrete;
 using DataAccess.Concrete;
 using DataAccess.Concrete.EntityFramework;
 using DataAccess.Concrete.InMemory;
@@ -79,7 +80,7 @@ namespace ConsoleUI
             foreach (var user in userManager.GetAll().Data)
             {
                 Console.WriteLine(user.UserId + " | " + user.FirstName + " | " +
-                    user.LastName + " | " + user.Email + " | " + user.Password);
+                    user.LastName + " | " + user.Email + " | " + user.PasswordHash);
             }
         }
 
@@ -91,7 +92,9 @@ namespace ConsoleUI
                 FirstName = "Mehmet",
                 LastName = "Sönmez",
                 Email = "mehmet@gmail.com",
-                Password = "123456789"
+                PasswordHash = System.Text.Encoding.UTF8.GetBytes("123456789"),
+                PasswordSalt = System.Text.Encoding.UTF8.GetBytes("123456789"),
+                Status = true
             });
             Console.WriteLine(result.Success + " | " + result.Message);
         }

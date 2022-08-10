@@ -2,9 +2,9 @@ using System;
 using Core.Utilities.Results;
 using Microsoft.AspNetCore.Http;
 
-namespace Core.Utilities.Helpers.FileHelper
+namespace Core.Utilities.FileHelper
 {
-    public interface IFileHelperService
+    public interface IFileHelper
     {
         IDataResult<string> Upload(IFormFile file, string root);
         IResult Delete(string filePath);

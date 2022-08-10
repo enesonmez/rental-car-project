@@ -1,11 +1,11 @@
 using System;
-using Core.Utilities.Helpers.Constants;
+using Core.Utilities.Constants;
 using Core.Utilities.Results;
 using Microsoft.AspNetCore.Http;
 
-namespace Core.Utilities.Helpers.FileHelper
+namespace Core.Utilities.FileHelper
 {
-    public class FileHelperManager : IFileHelperService
+    public class FileHelperManager : IFileHelper
     {
         public IResult Delete(string filePath)
         {

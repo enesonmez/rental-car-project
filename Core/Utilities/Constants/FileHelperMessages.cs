@@ -1,6 +1,6 @@
 using System;
 
-namespace Core.Utilities.Helpers.Constants
+namespace Core.Utilities.Constants
 {
     public class FileHelperMessages
     {
