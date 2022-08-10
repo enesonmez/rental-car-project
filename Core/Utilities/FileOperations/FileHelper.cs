@@ -3,9 +3,9 @@ using Core.Utilities.Constants;
 using Core.Utilities.Results;
 using Microsoft.AspNetCore.Http;
 
-namespace Core.Utilities.FileHelper
+namespace Core.Utilities.FileOperations
 {
-    public class FileHelperManager : IFileHelper
+    public class FileHelper : IFileHelper
     {
         public IResult Delete(string filePath)
         {

@@ -2,7 +2,7 @@ using System;
 using Core.Utilities.Results;
 using Microsoft.AspNetCore.Http;
 
-namespace Core.Utilities.FileHelper
+namespace Core.Utilities.FileOperations
 {
     public interface IFileHelper
     {

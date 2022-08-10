@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "1xv+mJYmJoGbBBSUmpTcE9gCXv+rgiHYhA/uOxKD9m8tv6fMsaxiUkkxK2HJv4/VuQFne7xIvuicMR9oNwZ0Pw==",
+  "dgSpecHash": "fGri1mKqvoMH24d7i1WHi2VsmNIMKN/Cmd/Dg207k5oNWIm717NREDEy/z29zRbOpg+nhcdPNpTEDXriyxgxIQ==",
   "success": true,
   "projectFilePath": "/home/enesonmez/Genel/projects/RentCar/DataAccess/DataAccess.csproj",
   "expectedPackageFiles": [
@@ -23,6 +23,7 @@
     "/home/enesonmez/.nuget/packages/microsoft.extensions.caching.abstractions/6.0.0/microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "/home/enesonmez/.nuget/packages/microsoft.extensions.caching.memory/6.0.1/microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
     "/home/enesonmez/.nuget/packages/microsoft.extensions.configuration.abstractions/6.0.0/microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "/home/enesonmez/.nuget/packages/microsoft.extensions.configuration.binder/6.0.0/microsoft.extensions.configuration.binder.6.0.0.nupkg.sha512",
     "/home/enesonmez/.nuget/packages/microsoft.extensions.dependencyinjection/6.0.0/microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
     "/home/enesonmez/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "/home/enesonmez/.nuget/packages/microsoft.extensions.logging/6.0.0/microsoft.extensions.logging.6.0.0.nupkg.sha512",
