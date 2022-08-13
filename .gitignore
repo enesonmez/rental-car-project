@@ -245,7 +245,7 @@ orleans.codegen.cs
 # Including strong name files can present a security risk
 # (https://github.com/github/gitignore/pull/2483#issue-259490424)
 #*.snk
-
+vscode
 # Since there are multiple workflows, uncomment next line to ignore bower_components
 # (https://github.com/github/gitignore/pull/1529#issuecomment-104372622)
 #bower_components/
@@ -333,7 +333,7 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
-
+vscode
 # OpenCover UI analysis results
 OpenCover/
 
@@ -347,16 +347,7 @@ ASALocalRun/
 *.nvuser
 
 # MFractors (Xamarin productivity tool) working folder
-.mfractor/
-
-# Local History for Visual Studio
-.localhistory/
-
-# BeatPulse healthcheck temp database
-healthchecksdb
-
-# Backup folder for Package Reference Convert tool in Visual Studio 2017
-MigrationBackup/
+.mfractor/vscode
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
@@ -379,7 +370,7 @@ aclocal.m4
 install-sh
 autom4te.cache/
 *.tar.gz
-tarballs/
+tarballs/vscode
 test-results/
 
 # Mac bundle stuff
@@ -447,7 +438,7 @@ $RECYCLE.BIN/
 ##
 ## Visual Studio Code
 ##
-.vscode/*
+.vscode
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
